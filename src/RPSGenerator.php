@@ -4,7 +4,10 @@
     {
         function compareRPS($player1, $player2)
         {
-            if($player1 == "rock") {
+            $player1 = str_replace(" ","", $player1);
+            $player2 = str_replace(" ","", $player2);
+            if($player1 == "rock")
+            {
                 if ($player2 == "scissors"){
                     return "Player 1 wins!";
 
@@ -55,6 +58,7 @@
             else {
                 return "Invalid entry, try again!";
             }
+
 
 
 
