@@ -59,6 +59,16 @@
 
 
              }
+
+             function save()
+             {
+                 array_push($_SESSION['players_choices'], $this);
+             }
+
+             static function deleteAll()
+             {
+                 $_SESSION['players_choices']=array();
+             }
         }
 
 

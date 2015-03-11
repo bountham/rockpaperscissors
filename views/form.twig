@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Rock, Paper, Scissors</title>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Enter your guesses:</h1>
 
-        <p>Hello</p>
+                    <form action="/results" method="post">
+                        <div class="form-group">
+                            <label for="player1">Player 1's move</label>
+                            <input type="text" name="player1" id="player1" class="form-control">
+
+                            <label for="player2">Player 2's move</label>
+                            <input type="text" name="player2" id="player2" class="form-control">
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Who wins?</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </body>
 </html>
