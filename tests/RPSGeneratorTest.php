@@ -8,13 +8,13 @@
         {
             //arrange
             $test_RP = new RPS();
-            $input1 = "paper";
-            $input2 = "rock";
+            $input1 = "dog";
+            $input2 = "cat";
 
             //act
             $result = $test_RP->compareRPS($input1, $input2);
 
             //assert
-            $this->assertEquals("Player 1 wins!", $result);
+            $this->assertEquals("Invalid entry, try again!", $result);
         }
     }
