@@ -14,6 +14,6 @@ This app lets a user play rock paper scissors.
 #### Technologies used
 - HTML5
 - CSS3
-- Bootstrap ver 3.3.1
+- Bootstrap 
 -silex
 - twig
