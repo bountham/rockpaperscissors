@@ -1,6 +1,6 @@
 # rockpaperscissors
 
-## by Tommy Bountham
+## by Tommy Bountham &  Conor Baumgart 
 ### Date: March 12, 2015
 #### Description
 This app lets a user play rock paper scissors.
